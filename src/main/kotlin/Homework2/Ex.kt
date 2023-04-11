@@ -11,13 +11,16 @@ fun main () {
 
         when (command) {
             "increase" -> {
-                number = number + 1
-                println(number)
+                number += 1
+                println("Ваше число увеличено на 1, теперь оно равно $number")
             }
 
             "decrease" -> {
-                number = number - 1
-                println(number)
+                number -= 1
+                println("Ваше число уменьшено на 1, теперь оно равно $number")
+            }
+            "exit" -> {
+                println("Выход из программы")
             }
 
             else -> {
