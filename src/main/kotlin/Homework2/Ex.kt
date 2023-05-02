@@ -14,7 +14,6 @@ fun main () {
                 number += 1
                 println("Ваше число увеличено на 1, теперь оно равно $number")
             }
-
             "decrease" -> {
                 number -= 1
                 println("Ваше число уменьшено на 1, теперь оно равно $number")
@@ -22,11 +21,9 @@ fun main () {
             "exit" -> {
                 println("Выход из программы")
             }
-
             else -> {
                 println("Ошибка")
             }
         }
     }
-
 }
