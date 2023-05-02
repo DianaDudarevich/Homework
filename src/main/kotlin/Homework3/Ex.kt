@@ -21,7 +21,7 @@ fun main(){
         println(dog.information())
     }
     if(dog !is Cat){
-        println("я собака блять")
+        println("я собака блять!")
     }
 }
 
